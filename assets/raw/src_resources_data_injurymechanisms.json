@@ -1,0 +1,110 @@
+[
+  {
+    "value": "assault",
+    "displayValue": "Assault"
+  },
+  {
+    "value": "blocked",
+    "displayValue": "Blocked"
+  },
+  {
+    "value": "blunt",
+    "displayValue": "Blunt"
+  },
+  {
+    "value": "collapse",
+    "displayValue": "Collapse"
+  },
+  {
+    "value": "collision-contact",
+    "displayValue": "Collision / Contact"
+  },
+  {
+    "value": "dribbling",
+    "displayValue": "Dribbling"
+  },
+  {
+    "value": "falling",
+    "displayValue": "Falling / Diving"
+  },
+  {
+    "value": "heading",
+    "displayValue": "Heading"
+  },
+  {
+    "value": "ball",
+    "displayValue": "Hit by Ball"
+  },
+  {
+    "value": "jumping",
+    "displayValue": "Jumping / Landing"
+  },
+  {
+    "value": "kicked",
+    "displayValue": "Kicked by other player"
+  },
+  {
+    "value": "twisting",
+    "displayValue": "Twisting / Turning"
+  },
+  {
+    "value": "overuser",
+    "displayValue": "Overuse"
+  },
+  {
+    "value": "passing",
+    "displayValue": "Passing / Crossing"
+  },
+  {
+    "value": "penetrating",
+    "displayValue": "Penetrating"
+  },
+  {
+    "value": "rta",
+    "displayValue": "RTA"
+  },
+  {
+    "value": "running",
+    "displayValue": "Running / Sprinting"
+  },
+  {
+    "value": "shooting",
+    "displayValue": "Shooting"
+  },
+  {
+    "value": "sport",
+    "displayValue": "Sport"
+  },
+  {
+    "value": "sliding",
+    "displayValue": "Sliding"
+  },
+  {
+    "value": "stretching",
+    "displayValue": "Stretching"
+  },
+  {
+    "value": "tackled",
+    "displayValue": "Tackled by other player"
+  },
+  {
+    "value": "tackling",
+    "displayValue": "Tackling a player"
+  },
+  {
+    "value": "elbowed",
+    "displayValue": "Use of arm / elbow"
+  },
+  {
+    "value": "unknown",
+    "displayValue": "Unknown Mechanism"
+  },
+  {
+    "value": "other-Acute",
+    "displayValue": "Other Acute Mechanism"
+  },
+  {
+    "value": "other",
+    "displayValue": "Other Mechanism"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "value": "nuts",
+    "displayValue": "Nuts"
+  },
+  {
+    "value": "penicillin",
+    "displayValue": "Penicillin"
+  },
+  {
+    "value": "sulfonamides",
+    "displayValue": "Sulfonamides"
+  },
+  {
+    "value": "nonsteroidal",
+    "displayValue": "Nonsteroidal anti-inflammatory drugs"
+  },
+  {
+    "value": "other",
+    "displayValue": "Other"
+  }
+]
+

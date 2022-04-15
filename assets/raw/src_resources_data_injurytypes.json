@@ -1,0 +1,98 @@
+[
+  {
+    "value": "abrasion",
+    "displayValue": "Abrasion"
+  },
+  {
+    "value": "deformity",
+    "displayValue": "Deformity"
+  },
+  {
+    "value": "bleeding",
+    "displayValue": "Bleeding"
+  },
+  {
+    "value": "bite",
+    "displayValue": "Bite"
+  },
+  {
+    "value": "bruise",
+    "displayValue": "Haematoma/ Contusion/ Bruise"
+  },
+  {
+    "value": "burn",
+    "displayValue": "Burn"
+  },
+  {
+    "value": "concussion",
+    "displayValue": "Concussion"
+  },
+  {
+    "value": "subluxation",
+    "displayValue": "Dislocation or Subluxation"
+  },
+  {
+    "value": "dental",
+    "displayValue": "Dental"
+  },
+  {
+    "value": "fracture",
+    "displayValue": "Fracture (suspected or confirmed)"
+  },
+  {
+    "value": "laceration",
+    "displayValue": "Laceration"
+  },
+  {
+    "value": "lesion",
+    "displayValue": "Lesion of Meniscus / Cartilage"
+  },
+  {
+    "value": "pain",
+    "displayValue": "Pain"
+  },
+  {
+    "value": "swelling",
+    "displayValue": "Swelling"
+  },
+  {
+    "value": "tenderness",
+    "displayValue": "Tenderness"
+  },
+  {
+    "value": "wound",
+    "displayValue": "Wound"
+  },
+  {
+    "value": "muscle",
+    "displayValue": "Muscle rupture / Strain"
+  },
+  {
+    "value": "nerve",
+    "displayValue": "Nerve"
+  },
+  {
+    "value": "bone",
+    "displayValue": "Other Bone Injury"
+  },
+  {
+    "value": "overuse",
+    "displayValue": "Overuse unspecified"
+  },
+  {
+    "value": "sprain",
+    "displayValue": "Sprain / Ligament"
+  },
+  {
+    "value": "synovitis",
+    "displayValue": "Synovitis / Effusion"
+  },
+  {
+    "value": "tendon",
+    "displayValue": "Tendon rupture / Tendinosis"
+  },
+  {
+    "value": "other",
+    "displayValue": "Other Injury"
+  }
+]

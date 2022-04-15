@@ -1,0 +1,30 @@
+[
+  {
+    "value": "effleurage",
+    "displayValue": "Effleurage"
+  },
+  {
+    "value": "petrissage",
+    "displayValue": "Petrissage"
+  },
+  {
+    "value": "myofascial-release",
+    "displayValue": "Myofascial Release"
+  },
+  {
+    "value": "trigger-points",
+    "displayValue": "Trigger Points"
+  },
+  {
+    "value": "pnf",
+    "displayValue": "PNF"
+  },
+  {
+    "value": "hypervolt",
+    "displayValue": "Hypervolt"
+  },
+  {
+    "value": "frictions",
+    "displayValue": "Frictions"
+  }
+]

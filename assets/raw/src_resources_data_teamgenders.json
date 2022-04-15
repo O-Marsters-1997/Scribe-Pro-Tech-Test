@@ -1,0 +1,14 @@
+[
+  {
+    "value": "female",
+    "displayValue": "Female"
+  },
+  {
+    "value": "male",
+    "displayValue": "Male"
+  },
+  {
+    "value": "mixed",
+    "displayValue": "Mixed"
+  }
+]

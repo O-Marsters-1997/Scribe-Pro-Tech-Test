@@ -1,0 +1,115 @@
+{
+  "locations": [
+    {
+      "value": "club",
+      "displayValue": "Club",
+      "sub": "Domestic Club"
+    },
+    {
+      "value": "national",
+      "displayValue": "National",
+      "sub": "National Team"
+    },
+    {
+      "value": "home",
+      "displayValue": "Home",
+      "sub": "In Personal Time"
+    }
+  ],
+  "activities": [
+    {
+      "value": "football",
+      "displayValue": "Football"
+    },
+    {
+      "value": "gym",
+      "displayValue": "Gym"
+    },
+    {
+      "value": "other",
+      "displayValue": "Other"
+    }
+  ],
+  "contexts": [
+    {
+      "value": "match",
+      "displayValue": "Match"
+    },
+    {
+      "value": "training",
+      "displayValue": "Training"
+    },
+    {
+      "value": "other",
+      "displayValue": "Other"
+    }
+  ],
+  "squads": [
+    {
+      "value": "senior",
+      "displayValue": "Senior"
+    },
+    {
+      "value": "u21",
+      "displayValue": "Under 21's"
+    },
+    {
+      "value": "youth",
+      "displayValue": "Youth"
+    }
+  ],
+  "matchTypes": {
+    "club": [
+      {
+        "value": "friendly",
+        "displayValue": "Friendly"
+      },
+      {
+        "value": "league",
+        "displayValue": "League"
+      },
+      {
+        "value": "cup",
+        "displayValue": "Cup"
+      },
+      {
+        "value": "europe",
+        "displayValue": "Europe"
+      }
+    ],
+    "national": [
+      {
+        "value": "friendly",
+        "displayValue": "Friendly"
+      },
+      {
+        "value": "uefa",
+        "displayValue": "UEFA"
+      },
+      {
+        "value": "fifa",
+        "displayValue": "FIFA"
+      }
+    ]
+  },
+  "surfaces": [
+    {
+      "value": "grass",
+      "displayValue": "Grass"
+    },
+    {
+      "value": "astro",
+      "displayValue": "Astro"
+    }
+  ],
+  "matchEurope": [
+    {
+      "value": "europa-cup",
+      "displayValue": "Europa Cup"
+    },
+    {
+      "value": "champs-league",
+      "displayValue": "Champions League"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "types": [
+    {
+      "value": "foul",
+      "displayValue": "Foul"
+    },
+    {
+      "value": "n/a",
+      "displayValue": "N/A"
+    },
+    {
+      "value": "none",
+      "displayValue": "None"
+    }
+  ],
+  "offenders": [
+    {
+      "value": "foul-opponent",
+      "displayValue": "Opponent"
+    },
+    {
+      "value": "foul-own",
+      "displayValue": "Own"
+    }
+  ],
+  "sanctions": [
+    {
+      "value": "warning",
+      "displayValue": "Warning"
+    },
+    {
+      "value": "yellow",
+      "displayValue": "Yellow"
+    },
+    {
+      "value": "red",
+      "displayValue": "Red"
+    }
+  ]
+}

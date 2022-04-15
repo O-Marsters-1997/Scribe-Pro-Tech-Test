@@ -1,0 +1,27 @@
+[
+  {
+    "value": "spouse",
+    "displayValue": "Spouse"
+  },
+  {
+    "value": "partner",
+    "displayValue": "Partner"
+  },
+  {
+    "value": "sibling",
+    "displayValue": "Sibling"
+  },
+  {
+    "value": "parent",
+    "displayValue": "Parent"
+  },
+  {
+    "value": "child",
+    "displayValue": "Child"
+  },
+  {
+    "value": "other",
+    "displayValue": "Other"
+  }
+]
+

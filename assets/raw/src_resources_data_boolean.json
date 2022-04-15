@@ -1,0 +1,10 @@
+[
+  {
+    "value": true,
+    "displayValue": "Yes"
+  },
+  {
+    "value": false,
+    "displayValue": "No"
+  }
+]

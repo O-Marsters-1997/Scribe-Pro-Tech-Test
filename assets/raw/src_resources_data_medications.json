@@ -1,0 +1,128 @@
+[
+  {
+    "value": "cocodamol8",
+    "type": "analgesia",
+    "displayValue": "Cocodamol 8/500",
+    "doses": [1, 2],
+    "unit": "tab",
+    "route": "oral"
+  },
+  {
+    "value": "cocodamol30",
+    "type": "analgesia",
+    "displayValue": "Cocodamol 30/500",
+    "doses": [1, 2],
+    "unit": "tab",
+    "route": "oral"
+  },
+  {
+    "value": "paracetamol",
+    "type": "analgesia",
+    "displayValue": "Paracetamol",
+    "doses": [500, 1000],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "ibuprofen",
+    "type": "analgesia",
+    "displayValue": "Ibuprofen",
+    "doses": [200, 400, 600, 800],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "naproxen",
+    "type": "analgesia",
+    "displayValue": "Naproxen",
+    "doses": [500],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "diclofenac",
+    "type": "analgesia",
+    "displayValue": "Diclofenac",
+    "doses": [50, 75, 100],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "flucloxacillin",
+    "type": "antibiotic",
+    "displayValue": "Flucloxacillin",
+    "doses": [500, 1000],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "penicillin",
+    "type": "antibiotic",
+    "displayValue": "Penicillin",
+    "doses": [500, 1000],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "amoxil",
+    "type": "antibiotic",
+    "displayValue": "Amoxicillin",
+    "doses": [250, 500, 1000],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "coamoxiclav",
+    "type": "antibiotic",
+    "displayValue": "Co-Amoxiclav",
+    "doses": [325, 625],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "metronidazole",
+    "type": "antibiotic",
+    "displayValue": "Metronidazole",
+    "doses": [400],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "clarithromycin",
+    "type": "antibiotic",
+    "displayValue": "Clarithromycin",
+    "doses": [250, 500],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "omeprazole",
+    "type": "gi",
+    "displayValue": "Omeprazole",
+    "doses": [20, 40],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "gaviscon",
+    "type": "gi",
+    "displayValue": "Gaviscon",
+    "doses": []
+  },
+  {
+    "value": "immodium",
+    "type": "gi",
+    "displayValue": "Immodium",
+    "doses": [2],
+    "unit": "mg",
+    "route": "oral"
+  },
+  {
+    "value": "prochlorperazine",
+    "type": "gi",
+    "displayValue": "Prochlorperazine",
+    "doses": [5],
+    "unit": "mg",
+    "route": "oral"
+  }
+]

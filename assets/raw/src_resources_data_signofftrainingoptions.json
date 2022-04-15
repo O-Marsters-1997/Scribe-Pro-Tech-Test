@@ -1,0 +1,10 @@
+[
+  {
+    "value": "partial",
+    "displayValue": "Partially"
+  },
+  {
+    "value": "full",
+    "displayValue": "Fully"
+  }
+]

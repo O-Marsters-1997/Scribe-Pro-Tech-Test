@@ -1,0 +1,21 @@
+{
+  "covidV1": {
+    "yes": "YES",
+    "no": "NO",
+    "tenDays": "10 days",
+    "screeningDate": "Date",
+    "unwellCheckCovid": "In the last: 10 days ago have you felt unwell?",
+    "symptomsCheck": "In the last: 10 days ago have YOU had any of the following symptoms?",
+    "new": "A New:",
+    "symptom1": "- Continuous cough",
+    "symptom2": "- Fever/high temperature (37.8C or greater)",
+    "symptom3": "- Loss of, or change in, sense of smell or taste",
+    "dateOfStartSymptomsCovid": "Date of the start of FIRST symptoms",
+    "testCheck": "In the last: 10 days ago have YOU had a POSITIVE for Covid-19 test?",
+    "testDate": "Date of Test",
+    "houseHoldSymtomCheck": "In the last: 10 days ago have any of your HOUSEHOLD CONTACTS had any of the following symptoms?",
+    "contactWithPositiveCheckCovid": "In the last: 10 days ago have YOU been in contact with a Covid-19 confirmed or suspected case?",
+    "positiveTestNinetyDayCheck": "Have you had a previous POSITIVE test for Covid-19 in the last 90 days?",
+    "notes": "Notes"
+  }
+}

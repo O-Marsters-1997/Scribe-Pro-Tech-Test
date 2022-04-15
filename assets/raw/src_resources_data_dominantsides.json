@@ -1,0 +1,14 @@
+[
+  {
+    "value": "right",
+    "displayValue": "Right"
+  },
+  {
+    "value": "left",
+    "displayValue": "Left"
+  },
+  {
+    "value": "both",
+    "displayValue": "Both"
+  }
+]

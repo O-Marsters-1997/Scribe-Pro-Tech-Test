@@ -1,0 +1,34 @@
+[
+  {
+    "value": "junior",
+    "displayValue": "Junior"
+  },
+  {
+    "value": "u16",
+    "displayValue": "U16"
+  },
+  {
+    "value": "u17",
+    "displayValue": "U17"
+  },
+  {
+    "value": "u18",
+    "displayValue": "U18"
+  },
+  {
+    "value": "u19",
+    "displayValue": "U19"
+  },
+  {
+    "value": "u20",
+    "displayValue": "U20"
+  },
+  {
+    "value": "u21",
+    "displayValue": "U21"
+  },
+  {
+    "value": "senior",
+    "displayValue": "Senior"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "value": "unable",
+    "displayValue": "Unable"
+  },
+  {
+    "value": "partially",
+    "displayValue": "Partially",
+    "sub": "(Ongoing Treatment)"
+  },
+  {
+    "value": "fully",
+    "displayValue": "Fully",
+    "sub": "(Ongoing Treatment)"
+  },
+  {
+    "value": "cleared",
+    "displayValue": "Cleared"
+  }
+]

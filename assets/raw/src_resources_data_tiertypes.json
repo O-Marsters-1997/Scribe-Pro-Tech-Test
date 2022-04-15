@@ -1,0 +1,17 @@
+[
+  {
+    "value": "basic",
+    "displayValue": "Basic",
+    "text": "This is the most basic plan which allows you to add up to 7 players. You will not have access to admin or Covid-19 features."
+  },
+  {
+    "value": "standard",
+    "displayValue": "Standard",
+    "text": "This is the standard plan which allows you to add up to 35 players and staff. It is available for free until 31st January 2021 and it includes admin features but no Covid-19 features."
+  },
+  {
+    "value": "premium",
+    "displayValue": "Premium",
+    "text": "This is the premium plan which allows up to 35 players and staff along with full admin features and daily Covid-19 screenings for all team members. A nominal charge will be required to cover daily sms costs."
+  }
+]

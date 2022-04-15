@@ -1,0 +1,34 @@
+[
+  {
+    "value": "allergies",
+    "displayValue": "Allergies"
+  },
+  {
+    "value": "asthma",
+    "displayValue": "Asthma"
+  },
+  {
+    "value": "headache",
+    "displayValue": "Headache, Migraine, Nausea"
+  },
+  {
+    "value": "infection-airway",
+    "displayValue": "Infection in Airways (incl Influenza, Common Cold)"
+  },
+  {
+    "value": "infection-organs",
+    "displayValue": "Infection in Other Organs / Body Parts"
+  },
+  {
+    "value": "bowels",
+    "displayValue": "Stomach Pain, Diarrhoea, Bowel Problems"
+  },
+  {
+    "value": "fatigue",
+    "displayValue": "Unexplained Fatigue, Malaise, Fever"
+  },
+  {
+    "value": "other",
+    "displayValue": "Other"
+  }
+]

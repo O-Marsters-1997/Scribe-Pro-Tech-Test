@@ -1,0 +1,57 @@
+[
+  {
+    "value": 0,
+    "displayValue": "0",
+    "sub": "No Pain"
+  },
+  {
+    "value": 1,
+    "displayValue": "1",
+    "sub": "Very Mild"
+  },
+  {
+    "value": 2,
+    "displayValue": "2",
+    "sub": "Discomforting"
+  },
+  {
+    "value": 3,
+    "displayValue": "3",
+    "sub": "Tolerable"
+  },
+  {
+    "value": 4,
+    "displayValue": "4",
+    "sub": "Distressing"
+  },
+  {
+    "value": 5,
+    "displayValue": "5",
+    "sub": "Very Distressing"
+  },
+  {
+    "value": 6,
+    "displayValue": "6",
+    "sub": "Intense"
+  },
+  {
+    "value": 7,
+    "displayValue": "7",
+    "sub": "Very Intense"
+  },
+  {
+    "value": 8,
+    "displayValue": "8",
+    "sub": "Utterly Horrible"
+  },
+  {
+    "value": 9,
+    "displayValue": "9",
+    "sub": "Unbearable"
+  },
+  {
+    "value": 10,
+    "displayValue": "10",
+    "sub": "Unimaginable"
+  }
+]

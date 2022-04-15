@@ -1,0 +1,15 @@
+[
+  {
+    "value": "male",
+    "displayValue": "Male"
+  },
+  {
+    "value": "female",
+    "displayValue": "Female"
+  },
+  {
+    "value": "Unknown",
+    "displayValue": "Unknown"
+  }
+]
+

@@ -1,0 +1,66 @@
+[
+  {
+    "value": "respiratory",
+    "displayValue": "Respiratory"
+  },
+  {
+    "value": "cardiovascular",
+    "displayValue": "Cardiovascular"
+  },
+  {
+    "value": "renal",
+    "displayValue": "Renal / Urogenital"
+  },
+  {
+    "value": "gynaecological",
+    "displayValue": "Gynaecological"
+  },
+  {
+    "value": "metabolic",
+    "displayValue": "Metabolic / Endocrine"
+  },
+  {
+    "value": "immunological",
+    "displayValue": "Immunological"
+  },
+  {
+    "value": "haematological",
+    "displayValue": "Haematological"
+  },
+  {
+    "value": "dermatological",
+    "displayValue": "Dermatological"
+  },
+  {
+    "value": "neurological",
+    "displayValue": "Neurological"
+  },
+  {
+    "value": "psychiatric",
+    "displayValue": "Psychiatric / Behaviour / Mental Health"
+  },
+  {
+    "value": "ophthalnological",
+    "displayValue": "Ophthlamological ENT"
+  },
+  {
+    "value": "dental",
+    "displayValue": "Dental"
+  },
+  {
+    "value": "rheumatological",
+    "displayValue": "Rheumatological"
+  },
+  {
+    "value": "environmental-heat",
+    "displayValue": "Environmental - Heat Related"
+  },
+  {
+    "value": "gastroenterological",
+    "displayValue": "Gastroenterological"
+  },
+  {
+    "value": "environmental-altiude",
+    "displayValue": "Environmental - Altitude Related"
+  }
+]

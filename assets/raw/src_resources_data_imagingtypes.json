@@ -1,0 +1,27 @@
+[
+  {
+    "value": "xray",
+    "displayValue": "XRay"
+  },
+  {
+    "value": "ultrasound",
+    "displayValue": "Ultrasound"
+  },
+  {
+    "value": "scope",
+    "displayValue": "Scope"
+  },
+  {
+    "value": "mri",
+    "displayValue": "MRI"
+  },
+  {
+    "value": "ct",
+    "displayValue": "CT"
+  },
+  {
+    "value": "other",
+    "displayValue": "Other"
+  }
+]
+

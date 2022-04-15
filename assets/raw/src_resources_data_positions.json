@@ -1,0 +1,26 @@
+[
+  {
+    "value": "undefined",
+    "displayValue": "Not Specified"
+  },
+  {
+    "value": "goalkeeper",
+    "displayValue": "Goalkeeper"
+  },
+  {
+    "value": "defender",
+    "displayValue": "Defender"
+  },
+  {
+    "value": "midfielder",
+    "displayValue": "Midfielder"
+  },
+  {
+    "value": "staff",
+    "displayValue": "Staff"
+  },
+  {
+    "value": "forward",
+    "displayValue": "Forward"
+  }
+]

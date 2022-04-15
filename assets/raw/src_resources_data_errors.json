@@ -1,0 +1,83 @@
+{
+  "User": {
+    "firstname": "Please enter your firstname",
+    "lastname": "Please enter your lastname",
+    "email": "Please enter your email address",
+    "validEmail": "Please enter a valid email",
+    "phoneNumber": "Please enter a phone number",
+    "password": "Please enter a password",
+    "confirmPassword": "Please confirm your password",
+    "passwordMatch": "Your passwords do not match"
+  },
+  "Team": {
+    "Name": "Name is required",
+    "Tier": "Tier is required"
+  },
+  "Player": {
+    "Status": "Status is required",
+    "Firstname": "Firstname is required",
+    "Lastname": "Lastname is required",
+    "Email": "Email is required",
+    "PhoneNumber": "Phone Number is required",
+    "DateOfBirth": "Date of birth is required",
+    "Signature": "Player signature is required",
+    "Allergies": {
+      "HasAllergies": "Has Allergies allergens are required",
+      "Allergens": "Allergies allergens are required"
+    },
+    "GeneralPractitioner": {
+      "Firstname": "GP Firstname is required",
+      "Lastname": "GP Lastname is required"
+    },
+    "NextOfKin": {
+      "Firstname": "Next of kin firstname is required",
+      "Lastname": "Next of kin lastname is required",
+      "PhoneNumber": "Next of kin phone number is required"
+    },
+    "Athlete": {
+      "Weight": "Athelete Characteristics weight is required",
+      "Height": "Athelete Characteristics height is required",
+      "FootDominance": "Athelete dominant leg is required",
+      "Position": "Athelete Position is required"
+    }
+  },
+  "Injury": {
+    "Date": "Date is required",
+    "Time": "Time is required",
+    "Type": "Details Type is required",
+    "BodySite": "Details Body Site is required",
+    "FootballContext": {
+      "Location": "Context location is required"
+    }
+  },
+  "Illness": {
+    "Date": "Date is required",
+    "Time": "Time is required",
+    "Type": "Details Type is required"
+  },
+  "Medication": {
+    "Date": "Date is required",
+    "Time": "Time is required"
+  },
+  "Appointment": {
+    "Date": "Date is required",
+    "Time": "Time is required",
+    "Title": "Title is required"
+  },
+  "Activity": {
+    "Date": "Date is required",
+    "Time": "Time is required",
+    "Minutes": "Minutes are required",
+    "Location": "Context location is required",
+    "FootballContext": {
+      "Location": "Context location is required"
+    }
+  },
+  "SportsTherapy": {
+    "Date": "Date is required",
+    "Time": "Time is required",
+    "BodySite": "Body site is required",
+    "Type": "Type is required",
+    "PainScore": "Pain score is required"
+  }
+}

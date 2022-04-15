@@ -1,0 +1,8 @@
+build/
+src/serviceWorker.ts
+src/fontello/*
+src/fontello.json
+*/**/*.svg
+*/**/*.png
+*/**/*.css
+node_modules/

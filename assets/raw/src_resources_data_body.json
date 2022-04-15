@@ -1,0 +1,298 @@
+[
+    {
+      "value": "foot-toe_right_posterior",
+      "displayValue": "Foot toe right posterior"
+    },
+    {
+      "value": "foot-toe_left_posterior",
+      "displayValue": "Foot toe left posterior"
+    },
+    {
+      "value": "ankle_right_posterior",
+      "displayValue": "Ankle right posterior"
+    },
+    {
+      "value": "ankle_left_posterior",
+      "displayValue": "Ankle left posterior"
+    },
+    {
+      "value": "lower-leg-achilles_left_posterior",
+      "displayValue": "Lower leg achilles left posterior"
+    },
+    {
+      "value": "lower-leg-achilles_right_posterior",
+      "displayValue": "Lower leg achilles right posterior"
+    },
+    {
+      "value": "knee_left_posterior",
+      "displayValue": "Knee left posterior"
+    },
+    {
+      "value": "knee_right_posterior",
+      "displayValue": "Knee right posterior"
+    },
+    {
+      "value": "thigh_left_posterior",
+      "displayValue": "Thigh left posterior"
+    },
+    {
+      "value": "thigh_right_posterior",
+      "displayValue": "Thigh right posterior"
+    },
+    {
+      "value": "pelvis_right_posterior",
+      "displayValue": "Pelvis right posterior"
+    },
+    {
+      "value": "pelvis_left_posterior",
+      "displayValue": "Pelvis left posterior"
+    },
+    {
+      "value": "pelvis_central_posterior",
+      "displayValue": "Pelvis central posterior"
+    },
+    {
+      "value": "lower-back_central_posterior",
+      "displayValue": "Lower back central posterior"
+    },
+    {
+      "value": "lower-back_left_posterior",
+      "displayValue": "Lower back left posterior"
+    },
+    {
+      "value": "lower-back_right_posterior",
+      "displayValue": "Lower back right posterior"
+    },
+    {
+      "value": "hand-finger-thumb_right_posterior",
+      "displayValue": "Hand finger thumb right posterior"
+    },
+    {
+      "value": "hand-finger-thumb_left_posterior",
+      "displayValue": "Hand finger thumb left posterior"
+    },
+    {
+      "value": "wrist_right_posterior",
+      "displayValue": "Wrist right posterior"
+    },
+    {
+      "value": "wrist_left_posterior",
+      "displayValue": "Wrist left posterior"
+    },
+    {
+      "value": "forearm_left_posterior",
+      "displayValue": "Forearm left posterior"
+    },
+    {
+      "value": "forearm_right_posterior",
+      "displayValue": "Forearm right posterior"
+    },
+    {
+      "value": "elbow_right_posterior",
+      "displayValue": "Elbow right posterior"
+    },
+    {
+      "value": "elbow_left_posterior",
+      "displayValue": "Elbow left posterior"
+    },
+    {
+      "value": "upper-arm_right_posterior",
+      "displayValue": "Upper arm right posterior"
+    },
+    {
+      "value": "upper-arm_left_posterior",
+      "displayValue": "Upper arm left posterior"
+    },
+    {
+      "value": "shoulder_left_posterior",
+      "displayValue": "Shoulder left posterior"
+    },
+    {
+      "value": "shoulder_right_posterior",
+      "displayValue": "Shoulder right posterior"
+    },
+    {
+      "value": "upper-back_right",
+      "displayValue": "Upper back right"
+    },
+    {
+      "value": "upper-back_left",
+      "displayValue": "Upper back left"
+    },
+    {
+      "value": "upper-back_central",
+      "displayValue": "Upper back central"
+    },
+    {
+      "value": "neck_right_posterior",
+      "displayValue": "Neck right posterior"
+    },
+    {
+      "value": "neck_right_central",
+      "displayValue": "Neck right central"
+    },
+    {
+      "value": "neck_left_posterior",
+      "displayValue": "Neck left posterior"
+    },
+    {
+      "value": "head_right_posterior",
+      "displayValue": "Head right posterior"
+    },
+    {
+      "value": "head_central_posterior",
+      "displayValue": "Head central posterior"
+    },
+    {
+      "value": "head_left_posterior",
+      "displayValue": "Head left posterior"
+    },
+    {
+      "value": "foot_left_anterior",
+      "displayValue": "Foot left anterior"
+    },
+    {
+      "value": "foot_right_anterior",
+      "displayValue": "Foot right anterior"
+    },
+    {
+      "value": "ankle_left_anterior",
+      "displayValue": "Ankle left anterior"
+    },
+    {
+      "value": "ankle_right_anterior",
+      "displayValue": "Ankle right anterior"
+    },
+    {
+      "value": "lower-leg_right_anterior",
+      "displayValue": "Lower leg right anterior"
+    },
+    {
+      "value": "lower-leg_left_anterior",
+      "displayValue": "Lower leg left anterior"
+    },
+    {
+      "value": "knee_right_anterior",
+      "displayValue": "Knee right anterior"
+    },
+    {
+      "value": "knee_left_anterior",
+      "displayValue": "Knee left anterior"
+    },
+    {
+      "value": "thigh_left_anterior",
+      "displayValue": "Thigh left anterior"
+    },
+    {
+      "value": "thigh_right_anterior",
+      "displayValue": "Thigh right anterior"
+    },
+    {
+      "value": "genitals",
+      "displayValue": "Genitals"
+    },
+    {
+      "value": "hip-groin_left",
+      "displayValue": "Hip groin left"
+    },
+    {
+      "value": "hip-groin_right",
+      "displayValue": "Hip groin right"
+    },
+    {
+      "value": "hand-finger-thumb_right_anterior",
+      "displayValue": "Hand finger thumb right anterior"
+    },
+    {
+      "value": "hand-finger-thumb_left_anterior",
+      "displayValue": "Hand finger thumb left anterior"
+    },
+    {
+      "value": "wrist_right_anterior",
+      "displayValue": "Wrist right anterior"
+    },
+    {
+      "value": "wrist_left_anterior",
+      "displayValue": "Wrist left anterior"
+    },
+    {
+      "value": "forearm_left_anterior",
+      "displayValue": "Forearm left anterior"
+    },
+    {
+      "value": "forearm_right_anterior",
+      "displayValue": "Forearm right anterior"
+    },
+    {
+      "value": "elbow_right_anterior",
+      "displayValue": "Elbow right anterior"
+    },
+    {
+      "value": "elbow_left_anterior",
+      "displayValue": "Elbow left anterior"
+    },
+    {
+      "value": "upper-arm_right_anterior",
+      "displayValue": "Upper arm right anterior"
+    },
+    {
+      "value": "upper-arm_left_anterior",
+      "displayValue": "Upper arm left anterior"
+    },
+    {
+      "value": "shoulder_left_anterior",
+      "displayValue": "Shoulder left anterior"
+    },
+    {
+      "value": "shoulder_right_anterior",
+      "displayValue": "Shoulder right anterior"
+    },
+    {
+      "value": "chest_central",
+      "displayValue": "Chest central"
+    },
+    {
+      "value": "chest_left",
+      "displayValue": "Chest left"
+    },
+    {
+      "value": "chest_right",
+      "displayValue": "Chest right"
+    },
+    {
+      "value": "neck_right_anterior",
+      "displayValue": "Neck right anterior"
+    },
+    {
+      "value": "neck_central_anterior",
+      "displayValue": "Neck central anterior"
+    },
+    {
+      "value": "neck_left_anterior",
+      "displayValue": "Neck left anterior"
+    },
+    {
+      "value": "face_right",
+      "displayValue": "Face right"
+    },
+    {
+      "value": "face_central",
+      "displayValue": "Face central"
+    },
+    {
+      "value": "face_left",
+      "displayValue": "Face left"
+    },
+    {
+      "value": "abdomen_right",
+      "displayValue": "Abdomen right"
+    },
+    {
+      "value": "abdomen_left",
+      "displayValue": "Abdomen left"
+    },
+    {
+      "value": "addomen_central",
+      "displayValue": "Addomen central"
+    }
+]
