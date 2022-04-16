@@ -55,7 +55,7 @@ const StyledButton = styled.button<StyleProps>`
   flex: 0;
   width: 100%;
   border: ${({ variant }) => (variant === "outline" ? "solid" : "none")};
-  // min-height: 38px;
+  min-height: 38px;
   max-height: 48px;
   height: 100%;
   align-items: center;

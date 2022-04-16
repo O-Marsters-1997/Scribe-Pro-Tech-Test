@@ -38,11 +38,10 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
 
 
 
-  return (
-    <StyledView >
-      
-    </StyledView>
-  );
+  return( <StyledView>
+    <p>fgusdfhbg</p>
+    <p>fgusdfhbg</p>
+  </StyledView>);
 };
 
 export default ButtonGroup;
