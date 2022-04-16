@@ -27,11 +27,19 @@ function createTeamForm(Archetypes: Archetypes) {
               minLength: checkMinLength(2),
             }}
           />
-          <InputLabel iconName="team" title="Type" />
-          <InputLabel iconName="team" title="Sport Type" required />
-          <InputLabel iconName="up-dir" title="Level" />
         </FormInputContainer>
-        <ButtonGroup />
+        <FormInputContainer>
+          <InputLabel iconName="team" title="Type" />
+          <ButtonGroup></ButtonGroup>
+        </FormInputContainer>
+        <FormInputContainer>
+          <InputLabel iconName="team" title="Sport Type" required />
+          <ButtonGroup></ButtonGroup>
+        </FormInputContainer>
+        <FormInputContainer>
+          <InputLabel iconName="up-dir" title="Level" />
+          <ButtonGroup></ButtonGroup>
+        </FormInputContainer>
       </FormContainer>
     );
   };
