@@ -1,7 +1,7 @@
 import React from "react";
 
 import { createFreeText } from "../archetypeCreators/createFreeText";
-// import definitions from "../definitions";
+import definitions from "../definitions";
 
 import { ButtonGroupProps } from "../components/ButtonGroup";
 import TextArea, { TextAreaProps } from "../components/TextArea";

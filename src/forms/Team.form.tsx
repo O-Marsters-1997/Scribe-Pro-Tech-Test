@@ -6,6 +6,7 @@ import { TeamPaths } from "../constants/teams.constants";
 import FormContainer from "../components/FormContainer";
 import FormInputContainer from "../components/FormInputContainer";
 import InputLabel from "../components/InputLabel";
+import ButtonGroup from "../components/ButtonGroup";
 import { Archetypes } from "../archetypes";
 
 type Props = {
@@ -27,6 +28,7 @@ function createTeamForm(Archetypes: Archetypes) {
             }}
           />
         </FormInputContainer>
+        <ButtonGroup/>
       </FormContainer>
     );
   };
