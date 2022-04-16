@@ -33,7 +33,10 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
 
  
 
-  return <StyledView></StyledView>;
+  return (
+    <StyledView>
+    </StyledView>
+  );
 };
 
 export default ButtonGroup;
