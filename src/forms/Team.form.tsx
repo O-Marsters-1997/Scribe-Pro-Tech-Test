@@ -37,6 +37,7 @@ function createTeamForm(Archetypes: Archetypes) {
           <ButtonGroup></ButtonGroup>
         </FormInputContainer>
         <FormInputContainer>
+          {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
           <ButtonGroup></ButtonGroup>
         </FormInputContainer>
