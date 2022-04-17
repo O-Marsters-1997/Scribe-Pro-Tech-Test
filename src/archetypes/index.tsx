@@ -9,6 +9,15 @@ import TextArea, { TextAreaProps } from "../components/TextArea";
 import TextInput, { TextInputProps } from "../components/TextInput";
 
 
+// I think I understand the intended result. By my understanding you are looking for the creation of another archetype that corresponds to the multiselect.
+// This archetype would take the definitions as an argument, therefore you would be able to map over the arrays that are properties of the definitions object and ensure that each button's title and subtitle correspond with the nth item within that array. 
+
+// My understanding is that you also would be able to access the buttongroup props within the Buttons archetype I have defined below.
+
+// Unfortunately due to time limitations I have not been able to action this understanding.
+// To ensure that I have something to produce I instead plan to reimport the definitons within the form and access them from there and pass them down as props to button groups and buttons.
+// I will then focus on styling the buttons to look like the images with styled components and attempt to make the form as functional as possible.
+
 export type Archetypes = {
   [archetypeName: string]: React.FC<
     | Archetypes.ToggleTypes.Props<Teams.AccountView, ButtonGroupProps>
@@ -17,6 +26,8 @@ export type Archetypes = {
     | Archetypes.MultiSelectTypes.Props<Teams.AccountView, ButtonGroupProps>
   >;
 };
+
+// Below is my attempt to access the definitions via the archetype and then insert that within the form
 
 // [[item1, item2], [item1, item2]]
 let items: Array<Definitions.Item> = Object.values(definitions).map(definition => definition.items).reduce((items, accumulator) => {

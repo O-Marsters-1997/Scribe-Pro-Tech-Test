@@ -31,16 +31,13 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
 }) => {
   console.log(items, isSelected, onChange, value);
 
-
   return (
     <StyledView layout="list-horizontal">
       <p>fgusdfhbg</p>
       <p>fgusdfhbg</p>
+      
     </StyledView>
   );
-
 };
-
-
 
 export default ButtonGroup;
