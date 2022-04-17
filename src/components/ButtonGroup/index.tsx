@@ -4,16 +4,12 @@ import Button from "../Button";
 
 import View from "../View";
 
-let fruits: Array<string> = ["Apple", "Orange", "Banana"];
-
-
 export type ButtonGroupProps = {
   items: Array<Definitions.Item>;
   onChange: (newValue: string | number | null) => void;
   isSelected: (componentValue: string | number | null) => boolean;
   value: unknown;
 } & StyleProps;
-
 
 type StyleProps = {
   layout?: "list-horizontal" | "list-vertical" | "grid";
@@ -27,7 +23,6 @@ const StyledView = styled(View)<StyleProps>`
     props.layout === "list-horizontal" ? "row" : "column"};
 `;
 
-
 const ButtonGroup: React.FC<ButtonGroupProps> = ({
   items,
   isSelected,
@@ -36,12 +31,12 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
 }) => {
   console.log(items, isSelected, onChange, value);
 
-
-
-  return( <StyledView>
-    <p>fgusdfhbg</p>
-    <p>fgusdfhbg</p>
-  </StyledView>);
+  return (
+    <StyledView>
+      <p>fgusdfhbg</p>
+      <p>fgusdfhbg</p>
+    </StyledView>
+  );
 };
 
 export default ButtonGroup;

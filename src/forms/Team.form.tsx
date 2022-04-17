@@ -12,12 +12,10 @@ import { Archetypes } from "../archetypes";
 // Okay so I think the objective is to access the button group props in this file so that
 // two rows of buttons can be displayed as rows and the other can be displayed as a grid.
 
-
 type Props = {
   isSportTypeLocked?: boolean;
   offline?: boolean;
 };
-
 
 function createTeamForm(Archetypes: Archetypes) {
   const TeamFrom = (_props: Props) => {
