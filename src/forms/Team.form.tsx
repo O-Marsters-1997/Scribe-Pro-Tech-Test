@@ -33,6 +33,14 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
+          <Archetypes.Buttons
+            layout="list-horizontal"
+            // path={TeamPaths.Name}
+            // validations={{
+            //   required: checkValidInput,
+            //   minLength: checkMinLength(2),
+            // }}
+          />
           <ButtonGroup></ButtonGroup>
         </FormInputContainer>
         <FormInputContainer>
