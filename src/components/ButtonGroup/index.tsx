@@ -19,6 +19,7 @@ type StyleProps = {
 // The group props here works to ensure that each buttongroup has a different group selected
 // Each group has a variable number of items in their chunks
 // Therefore each buttongroup has as many buttons as there are items in their corresponding chunk
+
 const StyledView = styled(View)<StyleProps>`
   display: flex;
   flex: 0;
@@ -38,8 +39,9 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   console.log(items, isSelected, onChange, value, layout);
 
   // This map functions maps over the items and produces that number of buttons
-  const buttons = items[group].map(() => {
-    return <Button colorVariant="base" title="hello"></Button>;
+  const buttons = items[group].map((item: any) => {
+    console.log(item)
+    return <Button colorVariant="base" title={item.display}></Button>;
   });
 
   return (
