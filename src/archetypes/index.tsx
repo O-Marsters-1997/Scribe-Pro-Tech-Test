@@ -33,7 +33,7 @@ function arrayOfArrays() {
     .reduce((items, accumulator) => {
       return accumulator.concat(items);
     }, []);
-  const arr1: Array<any> = items.slice(-4, -1);
+  const arr1: Array<any> = items.slice(20, 23);
   const arr2: Array<any> = items.slice(8, 11);
   const arr3: Array<any> = items.slice(12, 18);
   const arrs = new Array<any>(arr1, arr2, arr3);
@@ -42,11 +42,8 @@ function arrayOfArrays() {
 
 let items = arrayOfArrays();
 
-
-
 // Below is my attempt to access the definitions via the archetype and then insert that within the form
 // [[item1, item2], [item1, item2]]
-
 
 // Okay so now I know the objective is to crreate another Archetype that is exportable from the create multiselect.
 export default {
