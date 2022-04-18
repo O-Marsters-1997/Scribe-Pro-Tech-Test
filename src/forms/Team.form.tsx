@@ -30,10 +30,10 @@ function createTeamForm(Archetypes: Archetypes) {
       if (definitions) {
         setDefs(definitions);
       }
-    })
+    });
 
     return (
-      <FormContainer >
+      <FormContainer>
         <FormInputContainer>
           <InputLabel iconName="free-text-solid" title="Name" required />
           <Archetypes.Text
@@ -46,9 +46,10 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
+          <Archetypes.Buttons layout="list-horizontal" />
           <ButtonGroup
             layout="list-horizontal"
-            // items={defs}
+            // items= {defs}
           ></ButtonGroup>
         </FormInputContainer>
         <FormInputContainer>
