@@ -14,6 +14,7 @@ export type ButtonGroupProps = {
 
 type StyleProps = {
   layout?: "list-horizontal" | "list-vertical" | "grid";
+  display?: "tab" | "row";
 };
 
 // The group props here works to ensure that each buttongroup has a different group selected
@@ -21,8 +22,9 @@ type StyleProps = {
 // Therefore each buttongroup has as many buttons as there are items in their corresponding chunk
 
 const StyledView = styled(View)<StyleProps>`
-  display: flex;
+  display: ${(props) => (props.display === "tab" ? "grid" : "flex")};
   flex: 0;
+  width: 100%;
   flex-wrap: ${(props) => (props.layout === "grid" ? "wrap" : "nowrap")};
   flex-direction: ${(props) =>
     props.layout === "list-horizontal" ? "row" : "column"};
@@ -35,6 +37,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   onChange,
   value,
   layout,
+  display,
 }) => {
   console.log(items, isSelected, onChange, value, layout);
 
@@ -44,8 +47,10 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
     return (
       <Button
         colorVariant="base"
+        isDisabled={false}
         title={item.display}
         subtitle={item.sub}
+        variant="square"
       ></Button>
     );
   });
@@ -55,6 +60,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
       items={items}
       group={group}
       isSelelected={isSelected}
+      textColor = "blue"
       onChange={onChange}
       value={value}
       layout={layout}

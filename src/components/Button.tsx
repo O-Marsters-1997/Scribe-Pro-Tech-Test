@@ -20,6 +20,7 @@ type Props = {
 
 type StyleProps = {
   variant?: "full" | "outline" | "square";
+  widthVariant?: "small" | undefined;
   isSelected?: boolean;
   isDisabled?: boolean;
   colorVariant?: ScribePro.ColorVariants;
@@ -39,8 +40,8 @@ const getBackgroundColor = ({
   if (isSelected) {
     return colors.base;
   }
-  if (variant === "outline") {
-    return "#fff";
+  if (variant === "outline" || variant === "square") {
+    return "#f8f8f8";
   }
 
   return colors[colorVariant ?? "primary"];
@@ -52,8 +53,8 @@ const StyledButton = styled.button<StyleProps>`
   shadow-opacity: 0.4;
   shadow-radius: 3px;
   display: flex;
-  flex: 0;
-  width: 100%;
+  flex: 1;
+  height: fit-content;
   border: ${({ variant }) => (variant === "outline" ? "solid" : "none")};
   min-height: 38px;
   max-height: 48px;
@@ -90,7 +91,7 @@ const Button: React.FC<Props> = ({
     }
 
     switch (variant) {
-      case "outline": {
+      case "square": {
         return colorVariant;
       }
       case "full": {

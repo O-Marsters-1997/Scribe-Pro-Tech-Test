@@ -7,7 +7,7 @@ const StyledView = styled(View)`
   display: flex;
   width: 100%;
   flex: 1;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 10px;
   flex-direction: column;
 `;

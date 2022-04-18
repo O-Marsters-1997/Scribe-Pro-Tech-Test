@@ -8,7 +8,6 @@ import FormInputContainer from "../components/FormInputContainer";
 import InputLabel from "../components/InputLabel";
 import ButtonGroup from "../components/ButtonGroup";
 import { Archetypes } from "../archetypes";
-
 // Importing definitions in here
 import definitions from "../definitions";
 
@@ -48,7 +47,7 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
-          <Archetypes.Buttons layout="list-horizontal" group={0}/>
+          <Archetypes.Buttons layout="list-horizontal" group={0} />
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Sport Type" required />
@@ -57,7 +56,7 @@ function createTeamForm(Archetypes: Archetypes) {
         <FormInputContainer>
           {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
-          <Archetypes.Buttons layout="grid" group={2}/>
+          <Archetypes.Buttons layout="grid" group={2} numberOfColumns={3} />
         </FormInputContainer>
       </FormContainer>
     );

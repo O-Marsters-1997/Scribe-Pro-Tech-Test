@@ -35,7 +35,7 @@ function arrayOfArrays() {
     }, []);
   const arr1: Array<any> = items.slice(20, 23);
   const arr2: Array<any> = items.slice(8, 11);
-  const arr3: Array<any> = items.slice(12, 18);
+  const arr3: Array<any> = items.slice(11, 20);
   const arrs = new Array<any>(arr1, arr2, arr3);
   return arrs;
 }
@@ -49,7 +49,6 @@ let items = arrayOfArrays();
 export default {
   Text: createFreeText<Teams.AccountView, TextInputProps>()(TextInput),
   Notes: createFreeText<Teams.AccountView, TextAreaProps>()(TextArea),
-  // { definition: { items: [...] } }
   Buttons: createMultiSelect<Teams.AccountView, ButtonGroupProps>({
     definition: { items },
   })(ButtonGroup),
