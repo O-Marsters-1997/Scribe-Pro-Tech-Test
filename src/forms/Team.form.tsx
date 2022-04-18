@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { checkValidInput, checkMinLength } from "../utils/validation.utils";
 import { TeamPaths } from "../constants/teams.constants";
@@ -22,11 +22,18 @@ type Props = {
 
 function createTeamForm(Archetypes: Archetypes) {
   // Failsafe any to ensure that I can pass down the definitions to the button group
-  const TeamFrom = (_props: Props, definitions: any) => {
-    const [defs, setDefs] = useState(definitions);
+  const TeamFrom = (_props: Props) => {
+    const [defs, setDefs] = useState({});
+
+    // This use effect sets the state of the defs to the imported definitions
+    useEffect(() => {
+      if (definitions) {
+        setDefs(definitions);
+      }
+    })
 
     return (
-      <FormContainer>
+      <FormContainer >
         <FormInputContainer>
           <InputLabel iconName="free-text-solid" title="Name" required />
           <Archetypes.Text
@@ -41,7 +48,7 @@ function createTeamForm(Archetypes: Archetypes) {
           <InputLabel iconName="team" title="Type" />
           <ButtonGroup
             layout="list-horizontal"
-            items={definitions.teamType}
+            // items={defs}
           ></ButtonGroup>
         </FormInputContainer>
         <FormInputContainer>
