@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Button from "../Button";
 
@@ -30,11 +30,13 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   value,
   layout,
 }) => {
-  console.log(items.slice(-2, 1), isSelected, onChange, value, layout);
+  console.log(items, isSelected, onChange, value, layout);
 
-  const buttons = items.map(item => {
+ 
+  // This map functions maps over the items and produces that number of buttons
+  const buttons = items.map((item) => {
     return <Button colorVariant="base" title="hello"></Button>;
-  })
+  });
 
   return (
     <StyledView
