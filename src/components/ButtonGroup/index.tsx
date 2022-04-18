@@ -38,9 +38,9 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
       isSelelected={isSelected}
       onChange={onChange}
       value={value}
-      layout= {layout}
+      layout={layout}
     >
-      <Button></Button>
+      <Button colorVariant="base"></Button>
     </StyledView>
   );
 };
