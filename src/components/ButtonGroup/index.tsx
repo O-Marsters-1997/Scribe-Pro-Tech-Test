@@ -30,7 +30,11 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   value,
   layout,
 }) => {
-  console.log(items, isSelected, onChange, value, layout);
+  console.log(items.slice(-2, 1), isSelected, onChange, value, layout);
+
+  const buttons = items.map(item => {
+    return <Button colorVariant="base" title="hello"></Button>;
+  })
 
   return (
     <StyledView
@@ -40,7 +44,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
       value={value}
       layout={layout}
     >
-      <Button colorVariant="base"></Button>
+      {buttons}
     </StyledView>
   );
 };

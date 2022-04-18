@@ -46,7 +46,7 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
-          <Archetypes.Buttons layout="list-horizontal" />
+          <Archetypes.Buttons layout="list-horizontal" items= "jbdfkjd"/>
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Sport Type" required />

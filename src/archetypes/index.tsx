@@ -34,6 +34,7 @@ let items: Array<Definitions.Item> = Object.values(definitions).map(definition =
   return accumulator.concat(items)
 }, [])
 
+
 // Okay so now I know the objective is to crreate another Archetype that is exportable from the create multiselect. 
 export default {
   Text: createFreeText<Teams.AccountView, TextInputProps>()(TextInput),
