@@ -34,7 +34,7 @@ function arrayOfArrays() {
       return accumulator.concat(items);
     }, []);
   const arr1: Array<any> = items.slice(-4, -1);
-  const arr2: Array<any> = items.slice(8, 10);
+  const arr2: Array<any> = items.slice(8, 11);
   const arr3: Array<any> = items.slice(12, 18);
   const arrs = new Array<any>(arr1, arr2, arr3);
   return arrs;

@@ -40,8 +40,14 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
 
   // This map functions maps over the items and produces that number of buttons
   const buttons = items[group].map((item: any) => {
-    console.log(item)
-    return <Button colorVariant="base" title={item.display}></Button>;
+    console.log(item);
+    return (
+      <Button
+        colorVariant="base"
+        title={item.display}
+        subtitle={item.sub}
+      ></Button>
+    );
   });
 
   return (
