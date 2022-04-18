@@ -39,6 +39,7 @@ function createTeamForm(Archetypes: Archetypes) {
           <InputLabel iconName="free-text-solid" title="Name" required />
           <Archetypes.Text
             path={TeamPaths.Name}
+            placeholder="Manchester United F.C"
             validations={{
               required: checkValidInput,
               minLength: checkMinLength(2),
