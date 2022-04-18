@@ -24,6 +24,8 @@ function createTeamForm(Archetypes: Archetypes) {
   // Failsafe any to ensure that I can pass down the definitions to the button group
   const TeamFrom = (_props: Props) => {
     const [defs, setDefs] = useState({});
+    // The group determines what chunk in the array is selected and then the map function in the buttongroup will relate to how many items there are in that chunk
+    const [group, setGroup] = useState<number>(0);
 
     // This use effect sets the state of the defs to the imported definitions
     useEffect(() => {
@@ -46,16 +48,16 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
-          <Archetypes.Buttons layout="list-horizontal" items= "jbdfkjd"/>
+          <Archetypes.Buttons layout="list-horizontal" group={0}/>
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Sport Type" required />
-          <Archetypes.Buttons layout="list-horizontal" />
+          <Archetypes.Buttons layout="list-horizontal" group={1} />
         </FormInputContainer>
         <FormInputContainer>
           {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
-          <Archetypes.Buttons layout="grid" />
+          <Archetypes.Buttons layout="grid" group={2}/>
         </FormInputContainer>
       </FormContainer>
     );

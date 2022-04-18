@@ -40,7 +40,9 @@ function arrayOfArrays() {
   return arrs;
 }
 
-let items = arrayOfArrays()
+let items = arrayOfArrays();
+
+
 
 // Below is my attempt to access the definitions via the archetype and then insert that within the form
 // [[item1, item2], [item1, item2]]
