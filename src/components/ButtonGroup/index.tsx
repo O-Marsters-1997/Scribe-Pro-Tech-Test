@@ -28,14 +28,19 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   isSelected,
   onChange,
   value,
+  layout,
 }) => {
-  console.log(items, isSelected, onChange, value);
+  console.log(items, isSelected, onChange, value, layout);
 
   return (
-    <StyledView layout="list-horizontal">
-      <p>fgusdfhbg</p>
-      <p>fgusdfhbg</p>
-      
+    <StyledView
+      items={items}
+      isSelelected={isSelected}
+      onChange={onChange}
+      value={value}
+      layout= {layout}
+    >
+      <Button></Button>
     </StyledView>
   );
 };

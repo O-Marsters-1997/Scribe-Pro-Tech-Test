@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { checkValidInput, checkMinLength } from "../utils/validation.utils";
 import { TeamPaths } from "../constants/teams.constants";
@@ -9,6 +9,9 @@ import InputLabel from "../components/InputLabel";
 import ButtonGroup from "../components/ButtonGroup";
 import { Archetypes } from "../archetypes";
 
+// Importing definitions in here
+import definitions from "../definitions";
+
 // Okay so I think the objective is to access the button group props in this file so that
 // two rows of buttons can be displayed as rows and the other can be displayed as a grid.
 
@@ -18,7 +21,10 @@ type Props = {
 };
 
 function createTeamForm(Archetypes: Archetypes) {
-  const TeamFrom = (_props: Props) => {
+  // Failsafe any to ensure that I can pass down the definitions to the button group
+  const TeamFrom = (_props: Props, definitions: any) => {
+    const [defs, setDefs] = useState(definitions);
+
     return (
       <FormContainer>
         <FormInputContainer>
@@ -33,24 +39,19 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
-          <Archetypes.Buttons
+          <ButtonGroup
             layout="list-horizontal"
-            // path={TeamPaths.Name}
-            // validations={{
-            //   required: checkValidInput,
-            //   minLength: checkMinLength(2),
-            // }}
-          />
-          <ButtonGroup></ButtonGroup>
+            items={definitions.teamType}
+          ></ButtonGroup>
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Sport Type" required />
-          <ButtonGroup></ButtonGroup>
+          <ButtonGroup layout="list-horizontal"></ButtonGroup>
         </FormInputContainer>
         <FormInputContainer>
           {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
-          <ButtonGroup></ButtonGroup>
+          <ButtonGroup layout="grid"></ButtonGroup>
         </FormInputContainer>
       </FormContainer>
     );
