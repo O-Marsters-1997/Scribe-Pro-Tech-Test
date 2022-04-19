@@ -47,7 +47,7 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Type" />
-          <Archetypes.Buttons
+          <Archetypes.Toggle
             path={TeamPaths.Type}
             layout="list-horizontal"
             group={0}
@@ -56,7 +56,7 @@ function createTeamForm(Archetypes: Archetypes) {
         </FormInputContainer>
         <FormInputContainer>
           <InputLabel iconName="team" title="Sport Type" required />
-          <Archetypes.Buttons
+          <Archetypes.Toggle
             path={TeamPaths.SportType}
             layout="list-horizontal"
             group={1}
@@ -66,7 +66,7 @@ function createTeamForm(Archetypes: Archetypes) {
         <FormInputContainer>
           {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
-          <Archetypes.Buttons
+          <Archetypes.Toggle
             path={TeamPaths.Level}
             layout="grid"
             group={2}
