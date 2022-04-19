@@ -51,7 +51,7 @@ function createTeamForm(Archetypes: Archetypes) {
             path={TeamPaths.Type}
             layout="list-horizontal"
             group={0}
-            index={2}
+            index={0}
           />
         </FormInputContainer>
         <FormInputContainer>
@@ -60,7 +60,7 @@ function createTeamForm(Archetypes: Archetypes) {
             path={TeamPaths.SportType}
             layout="list-horizontal"
             group={1}
-            index={2}
+            index={0}
           />
         </FormInputContainer>
         <FormInputContainer>
@@ -71,7 +71,7 @@ function createTeamForm(Archetypes: Archetypes) {
             layout="grid"
             group={2}
             numberOfColumns={3}
-            index={5}
+            index={1}
           />
         </FormInputContainer>
       </FormContainer>
