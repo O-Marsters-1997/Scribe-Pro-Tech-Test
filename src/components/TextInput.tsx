@@ -15,8 +15,8 @@ export type TextInputProps = {
 const Input = styled.input`
   position: relative;
   min-height: 38px;
-  max-height: 38px;
   color: ${colors.base};
+  max-height: 38px;
   font-family: "Nunito";
   max-width: 100%;
   min-width: 200px;
@@ -42,6 +42,8 @@ const TextInput: React.FC<TextInputProps> = ({
 }) => {
   const debounce = _.debounce(onChangeText, 500);
   const [text, setValue] = useState<string | undefined>(value ?? "");
+
+
 
   useEffect(() => {
     if (value === null) {

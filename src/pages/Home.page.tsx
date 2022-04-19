@@ -98,17 +98,19 @@ const Home: React.FC<Record<string, unknown>> = () => {
     }
   }, [account, history]);
 
+
+
   return (
-    <LastUpdatedByContext lastUpdatedBy={account.view}>
-      <PageContainer>
-        <View style={styles.bodyContainer}>
-          <FormContext.Provider value={FormNames.Teams}>
-            <TeamForm />
-            <Button title="Next" colorVariant="base" onPress={saveTeam} />
-          </FormContext.Provider>
-        </View>
-      </PageContainer>
-    </LastUpdatedByContext>
+      <LastUpdatedByContext lastUpdatedBy={account.view}>
+        <PageContainer>
+          <View style={styles.bodyContainer}>
+            <FormContext.Provider value={FormNames.Teams}>
+              <TeamForm />
+              <Button title="Next" colorVariant="base" onPress={saveTeam} />
+            </FormContext.Provider>
+          </View>
+        </PageContainer>
+      </LastUpdatedByContext>
   );
 };
 

@@ -7,6 +7,7 @@ import View from "../View";
 export type ButtonGroupProps = {
   items: Array<Definitions.Item>;
   group: number;
+  index: number;
   onChange: (newValue: string | number | null) => void;
   isSelected: (componentValue: string | number | null) => boolean;
   value: unknown;
@@ -24,7 +25,8 @@ type StyleProps = {
 const StyledView = styled(View)<StyleProps>`
   display: ${(props) => (props.display === "tab" ? "grid" : "flex")};
   flex: 0;
-  width: 100%;
+  /* This has been inserted to create a small gap between the flex buttons */
+  gap: 1%;
   flex-wrap: ${(props) => (props.layout === "grid" ? "wrap" : "nowrap")};
   flex-direction: ${(props) =>
     props.layout === "list-horizontal" ? "row" : "column"};
@@ -33,34 +35,49 @@ const StyledView = styled(View)<StyleProps>`
 const ButtonGroup: React.FC<ButtonGroupProps> = ({
   items,
   group,
+  index,
   isSelected,
   onChange,
   value,
   layout,
   display,
 }) => {
-  console.log(items, isSelected, onChange, value, layout);
+  console.log(items[0], isSelected, onChange, value, layout);
 
   // This map functions maps over the items and produces that number of buttons
   const buttons = items[group].map((item: any) => {
-    console.log(item);
-    return (
-      <Button
-        colorVariant="base"
-        isDisabled={false}
-        title={item.display}
-        subtitle={item.sub}
-        variant="square"
-      ></Button>
-    );
+    if (items[group].indexOf(item) == index) {
+      return (
+        <Button
+          isSelected={true}
+          colorVariant="base"
+          isDisabled={false}
+          title={item.display}
+          subtitle={item.sub}
+          variant="square"
+        ></Button>
+      );
+    } else {
+      return (
+        <Button
+          isSelected={false}
+          colorVariant="base"
+          isDisabled={false}
+          title={item.display}
+          subtitle={item.sub}
+          variant="square"
+        ></Button>
+      );
+    }
   });
 
   return (
     <StyledView
       items={items}
       group={group}
+      index={index}
       isSelelected={isSelected}
-      textColor = "blue"
+      textColor="blue"
       onChange={onChange}
       value={value}
       layout={layout}

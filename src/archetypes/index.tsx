@@ -33,6 +33,7 @@ function arrayOfArrays() {
     .reduce((items, accumulator) => {
       return accumulator.concat(items);
     }, []);
+    
   const arr1: Array<any> = items.slice(20, 23);
   const arr2: Array<any> = items.slice(8, 11);
   const arr3: Array<any> = items.slice(11, 20);
