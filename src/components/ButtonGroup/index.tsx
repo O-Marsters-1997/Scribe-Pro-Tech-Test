@@ -32,7 +32,7 @@ const StyledView = styled(View)<StyleProps>`
     props.layout === "list-horizontal" ? "row" : "column"}; */
   & > * {
     flex: 1 1 28%;
-    margin: 5px;
+    margin:  0 5px;
   }
 `;
 

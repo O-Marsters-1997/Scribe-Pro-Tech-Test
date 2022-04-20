@@ -14,9 +14,7 @@ import TextInput, { TextInputProps } from "../components/TextInput";
 
 // My understanding is that you also would be able to access the buttongroup props within the Buttons archetype I have defined below.
 
-// Unfortunately due to time limitations I have not been able to action this understanding.
-// To ensure that I have something to produce I instead plan to reimport the definitons within the form and access them from there and pass them down as props to button groups and buttons.
-// I will then focus on styling the buttons to look like the images with styled components and attempt to make the form as functional as possible.
+
 
 export type Archetypes = {
   [archetypeName: string]: React.FC<
@@ -35,9 +33,16 @@ function arrayOfArrays() {
       return accumulator.concat(items);
     }, []);
 
+  // This is an array for type
   const arr1: Array<any> = items.slice(20, 23);
+  
+  // This is an array for sport type
   const arr2: Array<any> = items.slice(8, 11);
+  
+  // This is an array for level
   const arr3: Array<any> = items.slice(11, 20);
+
+  // Here I am instantiating a new array which is a combinations of the three ones that I have made
   const arrs = new Array<any>(arr1, arr2, arr3);
   return arrs;
 }
@@ -45,12 +50,12 @@ function arrayOfArrays() {
 let items = arrayOfArrays();
 
 // Below is my attempt to access the definitions via the archetype and then insert that within the form
-// [[item1, item2], [item1, item2]]
 
 // Okay so now I know the objective is to crreate another Archetype that is exportable from the create multiselect.
 export default {
   Text: createFreeText<Teams.AccountView, TextInputProps>()(TextInput),
   Notes: createFreeText<Teams.AccountView, TextAreaProps>()(TextArea),
+  // The toggle and mutiselect archetypes are created here in the same way because they each take one argument, which are the definitions.
   Toggle: createToggle<Teams.AccountView, ButtonGroupProps>({
     definition: { items },
   })(ButtonGroup),
