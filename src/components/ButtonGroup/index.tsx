@@ -32,6 +32,7 @@ const StyledView = styled(View)<StyleProps>`
   /* flex-direction: ${(props) =>
     props.layout === "list-horizontal" ? "row" : "column"}; */
   & > * {
+    /* 28% accounts for margin making it not exactly 33% basis */
     flex: 1 1 28%;
     margin: 0 5px;
   }
