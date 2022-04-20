@@ -52,6 +52,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   console.log(items[0], isSelected, onChange, value, layout);
 
   // This map functions maps over the items and produces that number of buttons
+  // I know that this is a bit messay and I should use a ternary but for some reason I couldn't get it to work so I wrote it out fully.
   const buttons = items[group].map((item: any) => {
     if (items[group].indexOf(item) == index) {
       return (

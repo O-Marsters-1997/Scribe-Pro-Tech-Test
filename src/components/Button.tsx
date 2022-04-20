@@ -53,6 +53,7 @@ const StyledButton = styled.button<StyleProps>`
   shadow-opacity: 0.4;
   shadow-radius: 3px;
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   border: ${({ variant }) => (variant === "outline" ? "solid" : "none")};
   min-height: 38px;
@@ -125,6 +126,7 @@ const Button: React.FC<Props> = ({
           </Text>
           {subtitle && (
             <Text
+              numberOfLines={2}
               isSelected={isSelected}
               colorVariant={getColorVariantText()}
               type="small"
