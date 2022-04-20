@@ -53,6 +53,7 @@ const StyledButton = styled.button<StyleProps>`
   shadow-opacity: 0.4;
   shadow-radius: 3px;
   display: flex;
+  /* I added this line */
   flex-wrap: wrap;
   flex: 1;
   border: ${({ variant }) => (variant === "outline" ? "solid" : "none")};

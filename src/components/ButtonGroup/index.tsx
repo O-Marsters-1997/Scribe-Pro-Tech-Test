@@ -6,6 +6,7 @@ import View from "../View";
 
 export type ButtonGroupProps = {
   items: Array<Definitions.Item>;
+  // Group and index were two props that I added in
   group: number;
   index: number;
   onChange: (newValue: string | number | null) => void;
@@ -19,22 +20,18 @@ type StyleProps = {
   display?: "tab" | "row";
 };
 
-// The group props here works to ensure that each buttongroup has a different group selected
-// Each group has a variable number of items in their chunks
-// Therefore each buttongroup has as many buttons as there are items in their corresponding chunk
-
 const StyledView = styled(View)<StyleProps>`
   display: flex;
   flex: 0;
   /* This has been inserted to create a small gap between the flex buttons */
   flex-wrap: ${(props) => (props.layout === "grid" ? "wrap" : "nowrap")};
 
-/* I commented the below rule out as I was finding it challenging to achieve the desired layout with flex-direction column */
+  /* I commented the below rule out as I was finding it challenging to achieve the desired layout with flex-direction column */
 
   /* flex-direction: ${(props) =>
     props.layout === "list-horizontal" ? "row" : "column"}; */
   & > * {
-    flex: 1 1 30%;
+    flex: 1 1 28%;
     margin: 5px;
   }
 `;
@@ -51,8 +48,8 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
 }) => {
   console.log(items[0], isSelected, onChange, value, layout);
 
-  // This map functions maps over the items and produces that number of buttons
-  // I know that this is a bit messay and I should use a ternary but for some reason I couldn't get it to work so I wrote it out fully.
+  // This map functions maps over the items and produces as many buttons as there are items within that group of items
+  // I know that this is a bit messay and I should probably use a ternary but for some reason I couldn't get it to work so I wrote it out fully.
   const buttons = items[group].map((item: any) => {
     if (items[group].indexOf(item) == index) {
       return (
