@@ -28,7 +28,7 @@ This repository contains the contents of the technical assesment completed for S
     - I then gave the `ButtonGroup` components a `group` prop and assigned this to be `0` for the first category, `1` for the second and `2` for the third.
     - I then mapped over the items in a given currently selected `group` of items and returned as many buttons as there are items within this chunk, meaning 3 buttons for `items[0]`, 3 for `items[1]` and 9 for `items[2]`.
         - By using this method, I could access the `title` and `subtitle` props on this button to display the correct information.
-    
+    <br><br>
     ```
     const buttons = items[group].map((item: any) => {
         ...
