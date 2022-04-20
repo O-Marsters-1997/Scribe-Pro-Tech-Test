@@ -54,7 +54,6 @@ const StyledButton = styled.button<StyleProps>`
   shadow-radius: 3px;
   display: flex;
   flex: 1;
-
   border: ${({ variant }) => (variant === "outline" ? "solid" : "none")};
   min-height: 38px;
   max-height: 48px;

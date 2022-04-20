@@ -14,6 +14,7 @@ export type ButtonGroupProps = {
 } & StyleProps;
 
 type StyleProps = {
+  // This ternary toggles between the single and multi row form layout for buttons
   layout?: "list-horizontal" | "list-vertical" | "grid";
   display?: "tab" | "row";
 };
@@ -23,14 +24,19 @@ type StyleProps = {
 // Therefore each buttongroup has as many buttons as there are items in their corresponding chunk
 
 const StyledView = styled(View)<StyleProps>`
-  display: "${(props) => (props.display === "tab" ? "grid" : "flex")}";
+  display: flex;
   flex: 0;
-
   /* This has been inserted to create a small gap between the flex buttons */
-  gap: 1%;
   flex-wrap: ${(props) => (props.layout === "grid" ? "wrap" : "nowrap")};
-  flex-direction: ${(props) =>
-    props.layout === "list-horizontal" ? "row" : "column"};
+
+/* I commented the below rule out as I was finding it challenging to achieve the desired layout with flex-direction column */
+
+  /* flex-direction: ${(props) =>
+    props.layout === "list-horizontal" ? "row" : "column"}; */
+  & > * {
+    flex: 1 1 30%;
+    margin: 5px;
+  }
 `;
 
 const ButtonGroup: React.FC<ButtonGroupProps> = ({

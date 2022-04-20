@@ -65,6 +65,7 @@ function createTeamForm(Archetypes: Archetypes) {
         <FormInputContainer>
           {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
+          {/* I used the multi here instead of toggle as I noticed that only it has the number of columns prop but I have been unable to do anything with it */}
           <Archetypes.Multi
             path={TeamPaths.Level}
             layout="grid"
