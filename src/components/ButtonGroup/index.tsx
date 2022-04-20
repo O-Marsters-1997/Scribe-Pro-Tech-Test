@@ -23,8 +23,9 @@ type StyleProps = {
 // Therefore each buttongroup has as many buttons as there are items in their corresponding chunk
 
 const StyledView = styled(View)<StyleProps>`
-  display: ${(props) => (props.display === "tab" ? "grid" : "flex")};
+  display: "${(props) => (props.display === "tab" ? "grid" : "flex")}";
   flex: 0;
+
   /* This has been inserted to create a small gap between the flex buttons */
   gap: 1%;
   flex-wrap: ${(props) => (props.layout === "grid" ? "wrap" : "nowrap")};
@@ -81,6 +82,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
       onChange={onChange}
       value={value}
       layout={layout}
+      display={display}
     >
       {buttons}
     </StyledView>

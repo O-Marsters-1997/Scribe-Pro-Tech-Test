@@ -65,10 +65,12 @@ function createTeamForm(Archetypes: Archetypes) {
         <FormInputContainer>
           {/* Sorry I can't see clearly what icon in the images this actually is so I've just gone with a different one to show ive read it from the css file */}
           <InputLabel iconName="up-dir" title="Level" />
-          <Archetypes.Toggle
+          <Archetypes.Multi
             path={TeamPaths.Level}
             layout="grid"
             group={2}
+            // I feel like number of columns is relavant. I would write a function in the styled components that determines flex basis depending on this number if th layout is set to grid
+            // For some reason flex basis and every other method I can think od does not stop each button starting on a new line so I have not been able to implement this idea.
             numberOfColumns={3}
             index={1}
           />
