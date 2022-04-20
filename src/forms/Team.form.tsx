@@ -20,10 +20,9 @@ type Props = {
 };
 
 function createTeamForm(Archetypes: Archetypes) {
-  // Failsafe any to ensure that I can pass down the definitions to the button group
   const TeamFrom = (_props: Props) => {
     const [defs, setDefs] = useState({});
-    // The group determines what chunk in the array is selected and then the map function in the buttongroup will relate to how many items there are in that chunk
+   
 
     // This use effect sets the state of the defs to the imported definitions
     useEffect(() => {
