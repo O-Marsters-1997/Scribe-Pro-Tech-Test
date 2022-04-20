@@ -22,7 +22,6 @@ type Props = {
 function createTeamForm(Archetypes: Archetypes) {
   const TeamFrom = (_props: Props) => {
     const [defs, setDefs] = useState({});
-   
 
     // This use effect sets the state of the defs to the imported definitions
     useEffect(() => {
