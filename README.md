@@ -15,6 +15,8 @@ This repository contains the contents of the technical assesment completed for S
     2. Run `yarn install`
     3. Run `yarn start`
 
+N.B: For reference most of the code that has been added or changed is in `src/archetypes/index.tsx`, `src/forms/Team.form.tsx` and `src/components/ButtonGroup.tsx`.
+
 ## What went well
 
 1. I was happy that I eventually understood that an archetype was being used so that it could be used to target particular components and create them in a specific way.
