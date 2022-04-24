@@ -59,7 +59,6 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   // Any other button that is returned has a value for isSelected of false.
 
   const buttons = items[group].map((item: any) => {
-    // if (items[group].indexOf(item) == index) {
     return (
       <Button
         isSelected={items[group].indexOf(item) == index ? true : false}
