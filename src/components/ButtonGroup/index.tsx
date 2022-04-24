@@ -58,31 +58,18 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({
   // Because this index prop relates to the index of the arrays where the item is currently selected on the form, this then returns a button that has a property of isSelected to be true for such buttons.
   // Any other button that is returned has a value for isSelected of false.
 
-  // I know that this is a bit messay and I should probably use a ternary but for some reason I couldn't get it to work so I wrote it out fully.
   const buttons = items[group].map((item: any) => {
-    if (items[group].indexOf(item) == index) {
-      return (
-        <Button
-          isSelected={true}
-          colorVariant="base"
-          isDisabled={false}
-          title={item.display}
-          subtitle={item.sub}
-          variant="square"
-        ></Button>
-      );
-    } else {
-      return (
-        <Button
-          isSelected={false}
-          colorVariant="base"
-          isDisabled={false}
-          title={item.display}
-          subtitle={item.sub}
-          variant="square"
-        ></Button>
-      );
-    }
+    // if (items[group].indexOf(item) == index) {
+    return (
+      <Button
+        isSelected={items[group].indexOf(item) == index ? true : false}
+        colorVariant="base"
+        isDisabled={false}
+        title={item.display}
+        subtitle={item.sub}
+        variant="square"
+      ></Button>
+    );
   });
 
   return (
